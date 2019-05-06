@@ -9,6 +9,9 @@ angular.module('myApp.person', ['ngRoute'])
   });
 }])
 
-.controller('PersonCtrl', [function() {
-
+.controller('PersonCtrl', ['$scope', '$http', function($scope, $http) {
+  $scope.people = [];
+  $http
+    .get('http://localhost:3000/person/list')
+    .then(response => $scope.people = response.data);
 }]);

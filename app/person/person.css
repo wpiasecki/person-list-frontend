@@ -1,0 +1,28 @@
+div.people-data {
+  border: 1px solid black;
+  display: table;
+}
+
+div.people-data > div.header {
+  border: 1px solid blue;
+  display: table-row;
+}
+
+/* cells */
+div.people-data > div.header > div,
+div.people-data > div.content > div {
+  display: table-cell;
+  border: 1px solid gray;
+  text-align: center;
+  padding: 5px;
+}
+
+/* header cells */
+div.people-data > div.header > div {
+  font-weight: bold;
+}
+
+div.people-data > div.content {
+  display: table-row;
+}
+
