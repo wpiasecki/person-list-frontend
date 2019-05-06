@@ -1,28 +1,27 @@
 div.people-data {
-  border: 1px solid black;
   display: table;
 }
 
-div.people-data > div.header {
-  border: 1px solid blue;
+div.people-data-header {
   display: table-row;
 }
 
 /* cells */
-div.people-data > div.header > div,
-div.people-data > div.content > div {
+div.people-data-header > div,
+div.people-data-content > div {
   display: table-cell;
-  border: 1px solid gray;
-  text-align: center;
+  border-bottom: 1px solid #c0c0c0;
   padding: 5px;
+  vertical-align: middle;
 }
 
 /* header cells */
-div.people-data > div.header > div {
+div.people-data-header > div {
   font-weight: bold;
+  text-align: center;
 }
 
-div.people-data > div.content {
+div.people-data-content {
   display: table-row;
 }
 
