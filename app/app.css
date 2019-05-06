@@ -2,6 +2,26 @@
 
 div.content {
   margin: 0 auto;
-  max-width: 900px;
   padding: 1em;
+}
+
+/* full-hd */
+@media(max-width: 1920px) {
+  div.content {
+    max-width: 1200px;
+  }
+}
+
+/* hd */
+@media(max-width: 1280px) {
+  div.content {
+    max-width: 900px;
+  }
+}
+
+/* wide-vga */
+@media(max-width: 768px) {
+  div.content {
+    max-width: 600px;
+  }
 }
