@@ -1,7 +1,8 @@
-# angular-person-frontend
+# person-list-frontend
 
-Projeto para apresentar uma lista de pessoas a partir de um backend REST
+Projeto para apresentar uma lista de pessoas a partir de um backend REST.
 
+* Frontend em AngularJS
 * Layout sem tabelas
 * Aplicação responsiva em tamanhos de tela full HD, HD e Wide VGA
 * Backend em Node.js
@@ -33,4 +34,6 @@ webpack
 npm start
 ```
 
+Acessar o sistema em http://localhost:8000.
 
+![list](https://raw.githubusercontent.com/wpiasecki/person-list-frontend/master/prints/1list.png)
